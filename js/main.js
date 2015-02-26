@@ -20,3 +20,5 @@ function showColor(color) {
             break;
     }
 }
+
+//Event listener listens for mouseover to display the hex code in the text area.//
