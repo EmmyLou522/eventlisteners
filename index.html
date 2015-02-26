@@ -4,17 +4,25 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
-
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-
-
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+    <section>
+        <h1>Color Choices</h1>
+            <p>Roll over the boxes to see the hex code.</p>
+        <div class="box red" onmouseover="showColor('red');"></div> 
+        <div class="box orange" onmouseover="showColor('orange');"></div>
+        <div class="box yellow" onmouseover="showColor('yellow');"></div>
+        <div class="box green" onmouseover="showColor('green');"></div>
+        <div class="box blue" onmouseover="showColor('blue');"></div>
+        <div class="box violet" onmouseover="showColor('violet');"></div>
+    </section>
+    <section id="text">
+        <textarea id="hexcodes" rows="1" cols="10"></textarea>
+    </section>
+    <!--         <my_element id="someID" onmouseover="doSomething();" onmouseout="doSomethingElse();"  -->
 </body>
 </html>

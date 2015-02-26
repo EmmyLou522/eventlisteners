@@ -1,0 +1,46 @@
+section {
+    max-width: 800px;
+    margin: auto;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+section p {
+    padding-bottom: 100px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+    
+.red {
+    background: #e50000;
+}
+
+.orange {
+    background: #ffa500;
+}
+
+.yellow {
+    background: #f5f36f;
+}
+
+.green {
+    background: #00b200;
+}
+
+.blue {
+    background: #3232ff;
+}
+
+.violet {
+    background: #551a8b;
+}
+
+#text {
+    margin: auto;
+    margin-top: 20px;
+}
